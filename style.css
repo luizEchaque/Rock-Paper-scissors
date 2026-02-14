@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    background-color: #00ADA9;
+    justify-content: center;
+}
+
+.MainContainer h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #474143;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FF6444;
+}
+
+.resultado {
+    height: 100px;
+    background-color: #474143;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.botoes {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.botoes button{
+    border: transparent;
+    background-color: #ffc738;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.botoes button:hover {
+    background-color: #ffa938;
+    transition: 300ms;
+}
